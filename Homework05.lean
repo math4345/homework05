@@ -13,7 +13,7 @@ def s05p01 : P → Q → P ∧ Q := sorry
 
 def s05p02 : Q ∧ P → P ∧ Q := sorry
 
-def s05p03 : ¬ (P → ¬ P) := sorry
+def s05p03 : ¬ (P ∧ ¬ P) := sorry
 
 def s05p04 : (¬ P) → (¬ (P ∧ Q)) := sorry
 
